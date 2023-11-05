@@ -5,7 +5,7 @@ theme = "hugo-lithium"
 googleAnalytics = ""
 disqusShortname = ""
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
-publishDir = "docs"
+publishDir = "public"
 [permalinks]
     post = "/:year/:month/:day/:slug/"
 
@@ -15,7 +15,7 @@ publishDir = "docs"
     weight = 2
     [[menu.main]]
     name = "Papers"
-    url = "/papers/"
+    url = "/"
     weight = 2
     [[menu.main]]
     name = "Books and tutorials"
